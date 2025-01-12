@@ -1,3 +1,6 @@
+/*consegui el codigo js de la siguiente pagina:
+https://programadorwebvalencia.com/javascript-carousel-sencillo-con-controles-y-autoreproduccion/*/
+
 window.onload = function () {
     const IMAGENES = [
         'img/taekwondo.jpg',
