@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-image: url(img/fondoTemplo.jpg);
+    background-image: url(img/fondoDojang3.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -14,18 +14,18 @@ header {
     padding-bottom: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: rgba(197, 197, 197, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
 
 h1 {
     text-align: center;
-    color: rgb(61, 61, 61);
+    color: rgb(31, 33, 103);
 }
 
 h2 {
-    color: rgb(61, 61, 61);
+    color: rgb(156, 15, 15);
     margin-top: 0%;
     margin-left: 20px;
     margin-right: 20px;
@@ -41,14 +41,14 @@ h2 {
     padding-bottom: 40px;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: rgba(197, 197, 197, 0.9);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;
     box-shadow: 5px 5px 15px black;
 }
 
 .introduccion p {
-    text-align: justify;
-    color: rgb(61, 61, 61);
+    text-align: left;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -84,7 +84,14 @@ button {
     border-radius: 8px;
     text-decoration: none;
     color: rgba(197, 197, 197, 0.9);
-    background-color: rgba(61, 61, 61, 0.8);
+}
+
+#retroceder {
+    background-color: rgb(31, 33, 103);
+}
+
+#avanzar {
+    background-color: rgb(156, 15, 15);
 }
 
 button:hover {
